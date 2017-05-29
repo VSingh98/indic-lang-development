@@ -1,9 +1,8 @@
 import nltk
 from nltk import *
 from re import *
-import random
-#opening the hindi text and putting its words in a list
-f = open("C:/Users/Sam/Documents/School/Lign 165/projectnext/project/hindi/90_utf.txt.norm",encoding="utf8" )
+from open_files import open_x_words
+
 the_text = f.read()
 words = the_text.split()
 hindi_words = ([(word, 'hindi') for word in words])
