@@ -18,6 +18,8 @@ def orderLanguageCodes(lang_codes):
     if 'm' in lang_codes:
         lang_codes = 'm'+lang_codes.replace('m','')
 
+    print lang_codes
+
     return lang_codes
 
 '''
@@ -32,6 +34,8 @@ def orderLanguageCodes(lang_codes):
         test_size:      how many we want for each test size
 
 @Return: (<classifier>, <classifier accuracy on 20% of data>)
+
+
 '''
 def create_NaiveBayesClassifier(lang_codes, training_size, flag=True, n=2):
 
@@ -44,6 +48,8 @@ def create_NaiveBayesClassifier(lang_codes, training_size, flag=True, n=2):
     training_min = None
 
     for lang in lang_codes:
+
+        print lang
         
         if training_min is None: 
 
