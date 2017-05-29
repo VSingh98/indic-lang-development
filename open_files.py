@@ -1,8 +1,5 @@
 # This module is to download x bytes from 
 
-import sys
-sys.path.append('/home/vansh/Library/indic_nlp_library/src')
-
 from indicnlp.tokenize import indic_tokenize
 import codecs
 import os 
