@@ -1,8 +1,24 @@
 import nltk
 from nltk import *
 import random
-from open_files import open_x_words
+from open_files import open_x_features
 
+
+def orderLanguageCodes(lang_codes):
+
+    if 'h' in lang_codes:
+        lang_codes = 'h'+lang_codes.replace('h','')
+
+    if 's' in lang_codes:
+        lang_codes = 's'+lang_codes.replace('s','')
+
+    if 'p' in lang_codes:
+        lang_codes = 'p'+lang_codes.replace('p','')
+
+    if 'm' in lang_codes:
+        lang_codes = 'm'+lang_codes.replace('m','')
+
+    return lang_codes
 
 '''
 @Name: create_classifier
@@ -17,42 +33,33 @@ from open_files import open_x_words
 
 @Return: (<classifier>, <classifier accuracy on 20% of data>)
 '''
-def create_NaiveBayesClassifier(lang_codes, training_size):
+def create_NaiveBayesClassifier(lang_codes, training_size, flag=True, n=2):
 
     corpora_dict = {'h': 'hindi', 'm': 'marathi', 'p': 'pali', 's':'sanskrit'}
 
-    if 'h' in lang_codes:
-        lang_codes = 'h'+lang_codes.replace('h','')
-
-    if 's' in lang_codes:
-        lang_codes = 's'+lang_codes.replace('s','')
-
-    if 'p' in lang_codes:
-        lang_codes = 'p'+lang_codes.replace('p','')
-
-    if 'm' in lang_codes:
-        lang_codes = 'm'+lang_codes.replace('m','')
+    lang_codes = orderLanguageCodes(lang_codes)
     
-    word_feature_list = list()
+    feature_list = list()
 
     training_min = None
 
     for lang in lang_codes:
         
-        if training_min is None:       
-            training_min = open_x_words(training_size, lang)
+        if training_min is None: 
+
+            training_min = open_x_features(training_size, lang, flag, n)
             training_set = training_min
         
         else:
-            training_set = open_x_words(training_min, lang)
+            training_set = open_x_features(training_min, lang, flag, n)
 
       
-        word_feature_list += [(word, corpora_dict[lang] ) for word in training_set]
+        feature_list += [(feature, corpora_dict[lang] ) for feature in training_set]
         
     
-    random.shuffle(word_feature_list)
+    random.shuffle(feature_list)
 
-    feature_set= [({'word':n},language)for (n,language)in word_feature_list]
+    feature_set= [({'feature':n},language)for (n,language)in feature_list]
 
     # we will create a test set of 20%
     test_size = int(len(feature_set)*.2)

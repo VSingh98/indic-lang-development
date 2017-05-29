@@ -4,17 +4,20 @@ from indicnlp.tokenize import indic_tokenize
 import codecs
 import os 
 import random
+from ngram_splitter import ngram
 
 '''
-@Name:      open_x_words
+@Name:      open_x_features
 
 @Desc:      will return a training set and test set of size described by params.
             It first shuffles the list of files in the provided language folder
             and then iterates the first x files such that the overall model set
             size is met.
 
- @Params:   training_size:  size of trainign set to return
+@Params:    training_size:  size of trainign set to return
             lang_code:      language code
+            flag:           If true, we extract words. Else, we extract n char grams
+            n:              what char grams we are extracting 
 
 @Return:    This will return a training set
 
@@ -26,10 +29,10 @@ import random
             return the maximum corpora's size.
 
             Also, the output is Non-Deterministic. Meaning with every call to
-            open_x_words with the same parameters, it will not return the same
+            open_x_features with the same parameters, it will not return the same
             output. 
 '''
-def open_x_words(training_size, lang_code):
+def open_x_features(training_size, lang_code, flag=True, n=2):
     
     # the language codes that this accepts
     corpora_dict = {'h': 'hindi', 'm': 'marathi', 'p': 'pali', 's':'sanskrit'}
@@ -41,11 +44,11 @@ def open_x_words(training_size, lang_code):
 
     overall_size = training_size
     
-    word_list = list()
+    feature_list = list()
 
     for _file in random_files:
         
-        if len(word_list) >= overall_size:
+        if len(feature_list) >= overall_size:
             break
 
         with codecs.open(param_dir + '/' + _file, 'r', encoding='utf8') as f:
@@ -55,7 +58,11 @@ def open_x_words(training_size, lang_code):
 
             tokenized = indic_tokenize.trivial_tokenize(data)
 
-            word_list.extend(tokenized) 
+            if flag:
+                feature_list.extend(tokenized) 
+            else:
+                for word in tokenized:
+                    feature_list += ngram(word, n)
 
-    return word_list
 
+    return feature_list
