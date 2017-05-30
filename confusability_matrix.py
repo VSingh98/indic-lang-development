@@ -1,19 +1,14 @@
 from create_classifier import create_NaiveBayesClassifier
 from itertools import combinations
 
-TRAINING_SIZ = 1000000
+TRAINING_SIZ = 10000000
 
 def create_classifiers():
 
+	line = '================================================================='
 	lang_codes = {'h':'hindi', 's': 'sanskrit', 'm': 'marathi', 'p': 'pali'}
 
-	# create generator to find all combinations of the language codes
-	generator = combinations(lang_codes.keys(), 2)
-	combos = list()
-
-	# fill combos with values from generator
-	for element in generator:
-		combos.append(''.join(element))
+	combos = ['hs', 'ms', 'hp', 'hs', 'hm', 'sp']
 
 	# run classifiers on words as features
 	print 'features: words'
@@ -23,7 +18,9 @@ def create_classifiers():
 		print '{:>10}/{:10} epsilon: {:4.3f}\t siz: {:<10}'.format(\
 			lang_codes[combo[0]], lang_codes[combo[1]], 1-accuracy, size*2)
 
-	print '\n'
+		classifier.show_most_informative_features()
+
+	print '\n'+line+'\n'
 
 	for n in range(1,7):
 		
@@ -36,7 +33,9 @@ def create_classifiers():
 			print '{:>10}/{:10} epsilon: {:4.3f}\t siz: {:<8}'.format(\
 				lang_codes[combo[0]], lang_codes[combo[1]], 1-accuracy, size*2)
 
-		print '\n'
+			classifier.show_most_informative_features()
+
+		print '\n'+line+'\n'
 	return
 
 
