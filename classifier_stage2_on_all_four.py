@@ -131,3 +131,4 @@ marathi_sanskrit_classifier = nltk.NaiveBayesClassifier.train(marathi_sanskrit_t
 #print (classifier.classify({'word':''}))
 #now we are testing it on the test set
 print("Marathi Sanskrit accuracy: " + str(nltk.classify.accuracy(marathi_sanskrit_classifier,marathi_sanskrit_test_set)))
+marathi_hindi_classifier.show_most_informative_features(5)
