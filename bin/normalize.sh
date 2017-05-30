@@ -12,7 +12,7 @@ files=($(ls $1))
 for file in ${files[@]}
 do
     python \
-        ~/Library/indic_nlp_library/src/indicnlp/normalize/indic_normalize.py \
+        ../indicnlp/normalize/indic_normalize.py \
         ${PWD}/$1/${file} \
         ${PWD}/$1/${file}.norm \
         hi \
