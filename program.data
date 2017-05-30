@@ -1,0 +1,88 @@
+Naive Bayes Classifier
+
+epsilon = 1 - accuracy
+
+siz = the combined size of lang1 and lang2 features that were fed into creating our classifier. 80% of this value were used in training the classifier and 20% were used for testing.
+
+
+
+features: words
+     hindi/sanskrit   epsilon: 0.030   siz: 1985366   
+  marathi/sanskrit    epsilon: 0.233   siz: 111358 
+                      
+
+     hindi/pali       epsilon: 0.078   siz: 352646    
+   marathi/pali       epsilon: 0.172   siz: 111358    
+
+     hindi/marathi    epsilon: 0.144   siz: 111358    
+  sanskrit/pali       epsilon: 0.213   siz: 352646    
+=========================================================
+
+features: 1-char grams
+     hindi/sanskrit   epsilon: 0.368   siz: 2008512 
+  marathi/sanskrit    epsilon: 0.360   siz: 583740 
+
+
+     hindi/pali       epsilon: 0.358   siz: 2052290 
+   marathi/pali       epsilon: 0.337   siz: 583740  
+
+     hindi/marathi    epsilon: 0.390   siz: 583740  
+  sanskrit/pali       epsilon: 0.373   siz: 2052290 
+=========================================================
+
+features: 2-char grams
+     hindi/sanskrit   epsilon: 0.275   siz: 2007522 
+  marathi/sanskrit    epsilon: 0.267   siz: 472382  
+
+     hindi/pali       epsilon: 0.236   siz: 1699644 
+   marathi/pali       epsilon: 0.206   siz: 472382  
+
+     hindi/pali       epsilon: 0.236   siz: 1699644 
+  sanskrit/pali       epsilon: 0.251   siz: 1699644 
+
+     hindi/marathi    epsilon: 0.281   siz: 472382  
+  sanskrit/pali       epsilon: 0.251   siz: 1699644 
+=========================================================
+
+features: 3-char grams
+     hindi/sanskrit   epsilon: 0.192   siz: 2012064 
+  marathi/sanskrit    epsilon: 0.163   siz: 379820 
+
+     hindi/pali       epsilon: 0.125   siz: 1427290 
+   marathi/pali       epsilon: 0.086   siz: 379820  
+
+     hindi/marathi    epsilon: 0.183   siz: 379820  
+  sanskrit/pali       epsilon: 0.135   siz: 1427290 
+=========================================================
+
+features: 4-char grams
+     hindi/sanskrit   epsilon: 0.127   siz: 2006560 
+  marathi/sanskrit    epsilon: 0.114   siz: 295530 
+
+     hindi/pali       epsilon: 0.052   siz: 1182182 
+   marathi/pali       epsilon: 0.053   siz: 295530  
+
+     hindi/marathi    epsilon: 0.132   siz: 295530  
+  sanskrit/pali       epsilon: 0.063   siz: 1182182 
+=========================================================
+
+features: 5-char grams
+     hindi/sanskrit   epsilon: 0.112   siz: 2005386 
+  marathi/sanskrit    epsilon: 0.116   siz: 221508  
+
+     hindi/pali       epsilon: 0.026   siz: 951162  
+   marathi/pali       epsilon: 0.074   siz: 221508  
+     
+     hindi/marathi    epsilon: 0.130   siz: 221508  
+  sanskrit/pali       epsilon: 0.030   siz: 951162     
+=========================================================
+
+features: 6-char grams
+     hindi/sanskrit   epsilon: 0.136   siz: 2005146 
+  marathi/sanskrit    epsilon: 0.155   siz: 165996  
+
+     hindi/pali       epsilon: 0.062   siz: 740046  
+   marathi/pali       epsilon: 0.089   siz: 165996  
+
+     hindi/marathi    epsilon: 0.156   siz: 165996  
+  sanskrit/pali       epsilon: 0.026   siz: 740046  
