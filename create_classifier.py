@@ -75,4 +75,4 @@ def create_NaiveBayesClassifier(lang_codes, training_size, flag=True, n=2):
 
     #print "finished training"
 
-    return(classifier, (nltk.classify.accuracy(classifier,test_set)) )
+    return(classifier, (nltk.classify.accuracy(classifier,test_set)), training_size )
