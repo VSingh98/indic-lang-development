@@ -1,0 +1,25 @@
+Language to be compared with
+	sanskrit	pali
+ words
+Hindi	0.141		0.078
+Marathi	0.227		0.099
+
+ 1 character grams
+Hindi	0.360		0.355
+Marathi	0.363		0.326
+
+ 2 character grams
+Hindi	0.272		0.232
+Marathi	0.265		0.199
+
+ 3 character grams
+Hindi	0.191		0.124
+Marathi	0.162		0.081
+
+ 4 character grams
+Hindi	0.125		0.050
+Marathi	0.110		0.054
+
+ 5 character grams
+Hindi	0.113		0.025
+Marathi	0.119		0.058
