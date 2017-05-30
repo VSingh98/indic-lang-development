@@ -1,14 +1,17 @@
+# -*- coding: utf-8 -*-
+
 import nltk
 from nltk import *
 from re import *
-from open_files import open_x_words
-
+import random
+#opening the hindi text and putting its words in a list
+f = open("hindi/90_utf.txt.norm",encoding="utf8" )
 the_text = f.read()
 words = the_text.split()
 hindi_words = ([(word, 'hindi') for word in words])
 f.close()
 #opening the marathi text and putting its words in a list
-g = open("C:/Users/Sam/Documents/School/Lign 165/projectnext/project/marathi/astro1.txt.norm",encoding="utf8")
+g = open("marathi/astro1.txt.norm",encoding="utf8")
 marathi_text = g.read()
 other_words = marathi_text.split()
 marathi_words= ([(word, 'marathi') for word in other_words])
