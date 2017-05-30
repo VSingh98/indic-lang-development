@@ -18,7 +18,7 @@ def orderLanguageCodes(lang_codes):
     if 'm' in lang_codes:
         lang_codes = 'm'+lang_codes.replace('m','')
 
-    print lang_codes
+    #print lang_codes
 
     return lang_codes
 
@@ -45,21 +45,16 @@ def create_NaiveBayesClassifier(lang_codes, training_size, flag=True, n=2):
     
     feature_list = list()
 
-    training_min = None
+    training_min = False
 
     for lang in lang_codes:
-
-        print lang
         
-        if training_min is None: 
-
-            training_min = open_x_features(training_size, lang, flag, n)
-            training_set = training_min
+        training_set = open_x_features(training_size, lang, flag, n)
         
-        else:
-            training_set = open_x_features(training_min, lang, flag, n)
-
-      
+        if training_min is False: 
+            training_size = len(training_set)
+            training_min = True     
+       
         feature_list += [(feature, corpora_dict[lang] ) for feature in training_set]
         
     
@@ -73,11 +68,11 @@ def create_NaiveBayesClassifier(lang_codes, training_size, flag=True, n=2):
     test_set = feature_set[:test_size]
     training_set = feature_set[test_size:]
 
-    print "about to start training"
+    #print "about to start training"
 
     #ok now we are training the classifier. Hooray!
     classifier = nltk.NaiveBayesClassifier.train(training_set)
 
-    print "finished training"
+    #print "finished training"
 
     return(classifier, (nltk.classify.accuracy(classifier,test_set)) )

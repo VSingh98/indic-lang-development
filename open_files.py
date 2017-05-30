@@ -48,8 +48,7 @@ def open_x_features(training_size, lang_code, flag=True, n=2):
 
     for _file in random_files:
         
-        if len(feature_list) >= overall_size:
-            break
+        difference = overall_size - len(feature_list)
 
         with codecs.open(param_dir + '/' + _file, 'r', encoding='utf8') as f:
 
@@ -58,10 +57,13 @@ def open_x_features(training_size, lang_code, flag=True, n=2):
 
             tokenized = indic_tokenize.trivial_tokenize(data)
 
+
+            working = tokenized if len(tokenized) <= difference else tokenized[:difference]
+
             if flag:
-                feature_list.extend(tokenized) 
+                feature_list.extend(working) 
             else:
-                for word in tokenized:
+                for word in working:
                     feature_list += ngram(word, n)
 
 
