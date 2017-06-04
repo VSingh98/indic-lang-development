@@ -47,9 +47,11 @@ def open_x_features(training_size, lang_code, flag=True, n=2):
     
     feature_list = list()
 
-    intab = '[],.*;:-{}()\r\n'
-    outtab = '              '
-    transtab = maketrans(intab, outtab)
+    # due to preprocessing done in hash cc9f3ac this presumable is not needed
+
+    #intab = '[],.*;:-{}()\r\n'
+    #outtab = '              '
+    #transtab = maketrans(intab, outtab)
 
     for _file in random_files:
         
@@ -58,7 +60,9 @@ def open_x_features(training_size, lang_code, flag=True, n=2):
         with codecs.open(param_dir + '/' + _file, 'r', encoding='utf8') as f:
 
             data = f.read()
-            data = data.translate(transtab)
+
+            # due to preprocessing done in hash cc9f3ac this presumable is not needed
+            #data = data.translate(transtab)
 
             tokenized = indic_tokenize.trivial_tokenize(data)
 
