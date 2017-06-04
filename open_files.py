@@ -5,6 +5,7 @@ import codecs
 import os 
 import random
 from ngram_splitter import ngram
+from string import transtab
 
 '''
 @Name:      open_x_features
@@ -46,6 +47,10 @@ def open_x_features(training_size, lang_code, flag=True, n=2):
     
     feature_list = list()
 
+    intab = '[],.*;:-{}()\r\n'
+    outtab = '              '
+    transtab = maketrans(intab, outtab)
+
     for _file in random_files:
         
         difference = overall_size - len(feature_list)
@@ -53,7 +58,7 @@ def open_x_features(training_size, lang_code, flag=True, n=2):
         with codecs.open(param_dir + '/' + _file, 'r', encoding='utf8') as f:
 
             data = f.read()
-            data = data.replace('\r\n', ' ')
+            data = data.translate(transtab)
 
             tokenized = indic_tokenize.trivial_tokenize(data)
 

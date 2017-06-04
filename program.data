@@ -5,7 +5,6 @@ epsilon = 1 - accuracy
 siz = the combined size of lang1 and lang2 features that were fed into creating our classifier. 80% of this value were used in training the classifier and 20% were used for testing.
 
 
-
 features: words
      hindi/sanskrit   epsilon: 0.030   siz: 1985366   
   marathi/sanskrit    epsilon: 0.233   siz: 111358 
