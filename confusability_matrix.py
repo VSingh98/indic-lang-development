@@ -32,7 +32,7 @@ def create_classifiers(fileName, showFeatures=False):
 			f.write('\n'+line+'\n')
 
 		for n in range(1,7):
-			
+
 			f.write('features: {}-char grams\n'.format(n))
 
 			for combo in combos:
@@ -61,7 +61,7 @@ def create_classifiers(fileName):
 	c_list = list()
 
 	with codecs.open(fileName, "w", encoding='utf8') as f:
-
+		'''
 		f.write('features: words\n')
 		for combo in combos:
 			mean, stdev = cross_validate(getAllfeatures(combo), 5)
@@ -70,9 +70,9 @@ def create_classifiers(fileName):
 				lang_codes[combo[0]], lang_codes[combo[1]], 1-mean, stdev))
 
 		f.write('\n'+line+'\n')
+		'''
+		for n in range(3,4):
 
-		for n in range(4,7):
-			
 			f.write('features: {}-char grams\n'.format(n))
 
 			for combo in combos:
