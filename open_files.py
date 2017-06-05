@@ -77,3 +77,32 @@ def open_x_features(training_size, lang_code, flag=True, n=2):
 
 
     return feature_list
+
+
+
+def getAllfeatures(lang_codes, areFeaturesWords=True, n=2):
+
+    # the language codes that this accepts
+    corpora_dict = {'h': 'hindi', 'm': 'marathi', 'p': 'pali', 's':'sanskrit'}
+
+    feature_list = list()
+
+    for code in lang_codes:
+        fileName = "combined_corpora/" + corpora_dict[code] + "/" + corpora_dict[code] + "_data.txt"
+
+        with codecs.open(fileName, 'r', encoding='utf8') as f:
+
+            data = f.read()
+
+            # due to preprocessing done in hash cc9f3ac this presumable is not needed
+            #data = data.translate(transtab)
+
+            tokenized = indic_tokenize.trivial_tokenize(data)
+
+            if areFeaturesWords:
+                feature_list += tokenized
+            else:
+                for word in working:
+                    feature_list += ngram(word, n)
+
+    return random.shuffle(feature_list)
