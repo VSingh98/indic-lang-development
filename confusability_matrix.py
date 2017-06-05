@@ -71,15 +71,15 @@ def create_classifiers(fileName):
 
 		f.write('\n'+line+'\n')
 
-		for n in range(1,7):
+		for n in range(4,7):
 			
 			f.write('features: {}-char grams\n'.format(n))
 
 			for combo in combos:
 				mean, stdev = cross_validate(getAllfeatures(combo, False, n), 5)
 
-				f.write('{:>10}/{:10} epsilon: {:4.3f}\t siz: {:<8}\n'.format(\
-					lang_codes[combo[0]], lang_codes[combo[1]], 1-accuracy, size*2))
+				f.write('{:>10}/{:10} mean epsilon: {:4.3f}\t stdev: {:6.5f}\n'.format(\
+					lang_codes[combo[0]], lang_codes[combo[1]], 1-mean, stdev))
 
 			f.write('\n'+line+'\n')
 
