@@ -1,0 +1,7 @@
+features: 1-char grams
+     hindi/sanskrit   mean epsilon: 0.336	 stdev: 0.00022
+   marathi/sanskrit   mean epsilon: 0.037	 stdev: 0.00012
+     hindi/pali       mean epsilon: 0.075	 stdev: 0.00024
+   marathi/pali       mean epsilon: 0.202	 stdev: 0.00046
+
+=================================================================
