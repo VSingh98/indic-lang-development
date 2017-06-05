@@ -71,7 +71,7 @@ def create_classifiers(fileName):
 
 		f.write('\n'+line+'\n')
 
-		for n in range(4,7):
+		for n in range(2,3):
 			
 			f.write('features: {}-char grams\n'.format(n))
 
