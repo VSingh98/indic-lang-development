@@ -29,7 +29,7 @@ def orderLanguageCodes(lang_codes):
         NaiveBayesClassifier. By default, test size is twenty percent of our
         overall data
 
-@Param: lang_codes:     These are the languages we are creating a clsfir for 
+@Param: lang_codes:     These are the languages we are creating a clsfir for
         training_size:  how many words we want for each language
         test_size:      how many we want for each test size
 
@@ -41,22 +41,22 @@ def create_NaiveBayesClassifier(lang_codes, training_size, flag=True, n=2):
     corpora_dict = {'h': 'hindi', 'm': 'marathi', 'p': 'pali', 's':'sanskrit'}
 
     lang_codes = orderLanguageCodes(lang_codes)
-    
+
     feature_list = list()
 
     training_min = False
 
     for lang in lang_codes:
-        
+
         training_set = open_x_features(training_size, lang, flag, n)
-        
-        if training_min is False: 
+
+        if training_min is False:
             training_size = len(training_set)
-            training_min = True     
-       
+            training_min = True
+
         feature_list += [(feature, corpora_dict[lang] ) for feature in training_set]
-        
-    
+
+
     random.shuffle(feature_list)
 
     feature_set= [({'feature':n},language)for (n,language)in feature_list]
@@ -80,10 +80,10 @@ def create_NaiveBayesClassifier(lang_codes, training_size, flag=True, n=2):
 def create_NaiveBayesClassifier(test_set, training_set):
 
     #ok now we are training the classifier. Hooray!
+
+    #print training_set[:10]
     classifier = nltk.NaiveBayesClassifier.train(training_set)
 
     #print "finished training"
 
     return(classifier, (nltk.classify.accuracy(classifier,test_set)))
-
-    

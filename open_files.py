@@ -1,11 +1,10 @@
-# This module is to download x bytes from 
+# This module is to download x bytes from
 
 from indicnlp.tokenize import indic_tokenize
 import codecs
-import os 
+import os
 import random
 from ngram_splitter import ngram
-from string import transtab
 
 '''
 @Name:      open_x_features
@@ -18,7 +17,7 @@ from string import transtab
 @Params:    training_size:  size of trainign set to return
             lang_code:      language code
             flag:           If true, we extract words. Else, we extract n char grams
-            n:              what char grams we are extracting 
+            n:              what char grams we are extracting
 
 @Return:    This will return a training set
 
@@ -31,10 +30,10 @@ from string import transtab
 
             Also, the output is Non-Deterministic. Meaning with every call to
             open_x_features with the same parameters, it will not return the same
-            output. 
+            output.
 '''
 def open_x_features(training_size, lang_code, flag=True, n=2):
-    
+
     # the language codes that this accepts
     corpora_dict = {'h': 'hindi', 'm': 'marathi', 'p': 'pali', 's':'sanskrit'}
 
@@ -44,7 +43,7 @@ def open_x_features(training_size, lang_code, flag=True, n=2):
     random.shuffle(random_files)
 
     overall_size = training_size
-    
+
     feature_list = list()
 
     # due to preprocessing done in hash cc9f3ac this presumable is not needed
@@ -54,7 +53,7 @@ def open_x_features(training_size, lang_code, flag=True, n=2):
     #transtab = maketrans(intab, outtab)
 
     for _file in random_files:
-        
+
         difference = overall_size - len(feature_list)
 
         with codecs.open(param_dir + '/' + _file, 'r', encoding='utf8') as f:
@@ -70,7 +69,7 @@ def open_x_features(training_size, lang_code, flag=True, n=2):
             working = tokenized if len(tokenized) <= difference else tokenized[:difference]
 
             if flag:
-                feature_list.extend(working) 
+                feature_list.extend(working)
             else:
                 for word in working:
                     feature_list += ngram(word, n)
@@ -98,11 +97,19 @@ def getAllfeatures(lang_codes, areFeaturesWords=True, n=2):
             #data = data.translate(transtab)
 
             tokenized = indic_tokenize.trivial_tokenize(data)
+            working = list()
 
             if areFeaturesWords:
-                feature_list += tokenized
+                working = tokenized
             else:
                 for word in working:
-                    feature_list += ngram(word, n)
+                    working += ngram(word, n)
 
-    return random.shuffle(feature_list)
+            #print "adding features to feature list"
+            feature_list += [({'feature': feature}, corpora_dict[code]) for feature in working]
+            #print "added features to feature list"
+
+
+    random.shuffle(feature_list)
+    #print "shuffled"
+    return feature_list
