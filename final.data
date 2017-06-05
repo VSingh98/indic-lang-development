@@ -3,6 +3,27 @@ features: words
    marathi/sanskrit   mean epsilon: 0.011	 stdev: 0.00008
      hindi/pali       mean epsilon: 0.009	 stdev: 0.00010
    marathi/pali       mean epsilon: 0.071	 stdev: 0.00061
+   
+=================================================================
+features: 1-char grams
+     hindi/sanskrit   mean epsilon: 0.336  stdev: 0.00022
+   marathi/sanskrit   mean epsilon: 0.037  stdev: 0.00012
+     hindi/pali       mean epsilon: 0.075  stdev: 0.00024
+   marathi/pali       mean epsilon: 0.202  stdev: 0.00046
+
+=================================================================
+features: 2-char grams
+     hindi/sanskrit   mean epsilon: 0.281  stdev: 0.00008
+   marathi/sanskrit   mean epsilon: 0.034  stdev: 0.00010
+     hindi/pali       mean epsilon: 0.077  stdev: 0.00019
+   marathi/pali       mean epsilon: 0.142  stdev: 0.00079
+
+=================================================================
+features: 3-char grams
+     hindi/sanskrit   mean epsilon: 0.202	 stdev: 0.00024
+   marathi/sanskrit   mean epsilon: 0.025	 stdev: 0.00013
+     hindi/pali       mean epsilon: 0.061	 stdev: 0.00027
+   marathi/pali       mean epsilon: 0.060	 stdev: 0.00077
 
 =================================================================
 features: 4-char grams
