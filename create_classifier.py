@@ -36,7 +36,6 @@ def orderLanguageCodes(lang_codes):
 @Return: (<classifier>, <classifier accuracy on 20% of data>)
 
 
-'''
 def create_NaiveBayesClassifier(lang_codes, training_size, flag=True, n=2):
 
     corpora_dict = {'h': 'hindi', 'm': 'marathi', 'p': 'pali', 's':'sanskrit'}
@@ -75,4 +74,16 @@ def create_NaiveBayesClassifier(lang_codes, training_size, flag=True, n=2):
 
     #print "finished training"
 
-    return(classifier, (nltk.classify.accuracy(classifier,test_set)) )
+    return(classifier, (nltk.classify.accuracy(classifier,test_set)), training_size )
+'''
+
+def create_NaiveBayesClassifier(test_set, training_set):
+
+    #ok now we are training the classifier. Hooray!
+    classifier = nltk.NaiveBayesClassifier.train(training_set)
+
+    #print "finished training"
+
+    return(classifier, (nltk.classify.accuracy(classifier,test_set)))
+
+    

@@ -1,0 +1,532 @@
+features: words
+     hindi/sanskrit   epsilon: 0.031	 siz: 1963400   
+Most Informative Features
+                 feature = u'\u0939\u0940'  hindi : sanskr =   3330.7 : 1.0
+                 feature = u'\u0915\u0930'  hindi : sanskr =   2336.2 : 1.0
+                 feature = u'\u0924\u0941' sanskr : hindi  =   1982.5 : 1.0
+                 feature = u'\u0917\u092f\u093e'  hindi : sanskr =   1877.7 : 1.0
+                 feature = u'\u0907\u0935' sanskr : hindi  =   1670.5 : 1.0
+                 feature = u'\u0924\u0902' sanskr : hindi  =   1316.2 : 1.0
+                 feature = u'\u091a'      sanskr : hindi  =   1257.8 : 1.0
+                 feature = u'\u0924\u0926' sanskr : hindi  =   1223.0 : 1.0
+                 feature = u'\u0924\u0915'  hindi : sanskr =   1095.5 : 1.0
+                 feature = u'\u0935\u0948' sanskr : hindi  =   1083.4 : 1.0
+   marathi/sanskrit   epsilon: 0.126	 siz: 108084    
+Most Informative Features
+                 feature = u'\u091a'      sanskr : marath =    626.2 : 1.0
+                 feature = u'\u0938'      sanskr : marath =    190.9 : 1.0
+                 feature = u']'           sanskr : marath =    175.6 : 1.0
+                 feature = u'['           sanskr : marath =    174.2 : 1.0
+                 feature = u'\u090f\u0935' sanskr : marath =    103.6 : 1.0
+                 feature = u'\u090f\u0915' marath : sanskr =     93.7 : 1.0
+                 feature = u'\u092e\u093e\u0902' sanskr : marath =     43.0 : 1.0
+                 feature = u'\u0939\u093e' marath : sanskr =     36.2 : 1.0
+                 feature = u'\u092e\u092e' sanskr : marath =     35.6 : 1.0
+                 feature = u'\u092a\u0942\u0930\u094d\u0923' marath : sanskr =     19.7 : 1.0
+     hindi/pali       epsilon: 0.074	 siz: 318648    
+Most Informative Features
+                 feature = u'\u0915\u093e'  hindi : pali   =   1292.4 : 1.0
+                 feature = u'\u0915\u0947'  hindi : pali   =   1189.2 : 1.0
+                 feature = u'\u0906\u092a\u0924\u094d\u0924\u093f'   pali : hindi  =    870.0 : 1.0
+                 feature = u'\u092d\u093f\u0915\u094d\u0916\u0935\u0947'   pali : hindi  =    617.0 : 1.0
+                 feature = u'\u0928\u0947'  hindi : pali   =    500.2 : 1.0
+                 feature = u'\u091a'        pali : hindi  =    467.3 : 1.0
+                 feature = u'\u092a\u0928'   pali : hindi  =    336.9 : 1.0
+                 feature = u'\u0916\u094b'   pali : hindi  =    252.9 : 1.0
+                 feature = u'\u092d\u0928\u094d\u0924\u0947'   pali : hindi  =    153.2 : 1.0
+                 feature = u'\u091c\u093e\u0924\u093e'  hindi : pali   =     95.7 : 1.0
+     hindi/sanskrit   epsilon: 0.031	 siz: 1963400   
+Most Informative Features
+                 feature = u'\u0939\u0940'  hindi : sanskr =   3244.2 : 1.0
+                 feature = u'\u0915\u0930'  hindi : sanskr =   2459.4 : 1.0
+                 feature = u'\u091a\u0948\u0935' sanskr : hindi  =   2234.6 : 1.0
+                 feature = u'\u0917\u092f\u093e'  hindi : sanskr =   2028.0 : 1.0
+                 feature = u'\u0924\u0941' sanskr : hindi  =   1964.7 : 1.0
+                 feature = u'\u0907\u0935' sanskr : hindi  =   1664.7 : 1.0
+                 feature = u'\u0924\u0902' sanskr : hindi  =   1262.8 : 1.0
+                 feature = u'\u0924\u0915'  hindi : sanskr =   1157.9 : 1.0
+                 feature = u'\u091a'      sanskr : hindi  =   1103.9 : 1.0
+                 feature = u'\u0935\u0948' sanskr : hindi  =   1077.2 : 1.0
+     hindi/marathi    epsilon: 0.126	 siz: 108084    
+Most Informative Features
+                 feature = u'\u092a\u0930'  hindi : marath =    270.9 : 1.0
+                 feature = u'\u092e\u0940' marath : hindi  =    186.0 : 1.0
+                 feature = u'\u0939\u0947' marath : hindi  =    141.4 : 1.0
+                 feature = u'\u0915\u0947'  hindi : marath =    128.5 : 1.0
+                 feature = u'\u0928\u0947'  hindi : marath =    123.9 : 1.0
+                 feature = u'\u0928\u0902' marath : hindi  =    106.1 : 1.0
+                 feature = u'\u0915\u093e\u0939\u0940' marath : hindi  =     94.1 : 1.0
+                 feature = u'\u0930\u0942\u092a'  hindi : marath =     81.8 : 1.0
+                 feature = u'\u0925\u0947'  hindi : marath =     64.5 : 1.0
+                 feature = u'\u0935\u0947'  hindi : marath =     61.8 : 1.0
+  sanskrit/pali       epsilon: 0.064	 siz: 318648    
+Most Informative Features
+                 feature = u'\u0915\u093e\u092f\u0947\u0928'   pali : sanskr =     60.4 : 1.0
+                 feature = u'\u0938\u0926\u093e' sanskr : pali   =     57.6 : 1.0
+                 feature = u'\u091a\u093e\u092a\u093f' sanskr : pali   =     56.0 : 1.0
+                 feature = u'\u092e\u092f\u0902'   pali : sanskr =     41.9 : 1.0
+                 feature = u'\u0905\u092a\u093f' sanskr : pali   =     40.3 : 1.0
+                 feature = u'\u0935\u091a\u0928\u0902' sanskr : pali   =     39.8 : 1.0
+                 feature = u'\u091a\u093f\u0924\u094d\u0924\u0902'   pali : sanskr =     37.8 : 1.0
+                 feature = u'\u092f\u0941\u0926\u094d\u0927\u0902' sanskr : pali   =     35.6 : 1.0
+                 feature = u'\u0924\u0925\u093e' sanskr : pali   =     30.5 : 1.0
+                 feature = u'\u092e\u0939\u0924\u093e' sanskr : pali   =     29.6 : 1.0
+
+=================================================================
+
+features: 1-char grams
+     hindi/sanskrit   epsilon: 0.366	 siz: 13710532
+Most Informative Features
+                 feature = u'\u0914'       hindi : sanskr =    181.9 : 1.0
+                 feature = u'\u091d'       hindi : sanskr =     66.4 : 1.0
+                 feature = u'\u0913'       hindi : sanskr =     53.3 : 1.0
+                 feature = u'\u0901'       hindi : sanskr =     29.7 : 1.0
+                 feature = u'\u0903'      sanskr : hindi  =     23.9 : 1.0
+                 feature = u']'           sanskr : hindi  =     21.2 : 1.0
+                 feature = u'\u0908'       hindi : sanskr =     19.8 : 1.0
+                 feature = u'['           sanskr : hindi  =     19.5 : 1.0
+                 feature = u'\u0919'      sanskr : hindi  =     13.8 : 1.0
+                 feature = u'\u0910'       hindi : sanskr =     13.3 : 1.0
+   marathi/sanskrit   epsilon: 0.363	 siz: 580922  
+Most Informative Features
+                 feature = u'\u091d'      marath : sanskr =    450.2 : 1.0
+                 feature = u'['           sanskr : marath =    105.9 : 1.0
+                 feature = u']'           sanskr : marath =    104.0 : 1.0
+                 feature = u'\u0919'      sanskr : marath =     93.9 : 1.0
+                 feature = u'\u0903'      sanskr : marath =     35.2 : 1.0
+                 feature = u'\u090b'      sanskr : marath =     33.3 : 1.0
+                 feature = u'\u0910'      marath : sanskr =     13.1 : 1.0
+                 feature = u'\u0913'      marath : sanskr =     10.6 : 1.0
+                 feature = u'\u091e'      sanskr : marath =      9.7 : 1.0
+                 feature = u'\u0908'      marath : sanskr =      9.6 : 1.0
+     hindi/pali       epsilon: 0.356	 siz: 2018348 
+Most Informative Features
+                 feature = u'\u0908'       hindi : pali   =    639.3 : 1.0
+                 feature = u'\u0919'        pali : hindi  =     56.5 : 1.0
+                 feature = u'\u0933'        pali : hindi  =     17.6 : 1.0
+                 feature = u'\u091e'        pali : hindi  =     16.7 : 1.0
+                 feature = u'['             pali : hindi  =     14.7 : 1.0
+                 feature = u']'             pali : hindi  =     13.1 : 1.0
+                 feature = u'\u092b'       hindi : pali   =      7.3 : 1.0
+                 feature = u'\u0922'       hindi : pali   =      5.4 : 1.0
+                 feature = u'\u0940'       hindi : pali   =      4.7 : 1.0
+                 feature = u'\u0921'       hindi : pali   =      3.9 : 1.0
+     hindi/sanskrit   epsilon: 0.366	 siz: 13710532
+Most Informative Features
+                 feature = u'\u0914'       hindi : sanskr =    162.4 : 1.0
+                 feature = u'\u091d'       hindi : sanskr =     71.0 : 1.0
+                 feature = u'\u0913'       hindi : sanskr =     57.3 : 1.0
+                 feature = u'\u0901'       hindi : sanskr =     31.6 : 1.0
+                 feature = u'['           sanskr : hindi  =     23.7 : 1.0
+                 feature = u']'           sanskr : hindi  =     23.0 : 1.0
+                 feature = u'\u0903'      sanskr : hindi  =     22.9 : 1.0
+                 feature = u'\u0908'       hindi : sanskr =     19.4 : 1.0
+                 feature = u'\u0919'      sanskr : hindi  =     12.7 : 1.0
+                 feature = u'\u0910'       hindi : sanskr =     12.6 : 1.0
+     hindi/marathi    epsilon: 0.379	 siz: 580922  
+Most Informative Features
+                 feature = u'\u0933'      marath : hindi  =    192.8 : 1.0
+                 feature = u'\u0914'       hindi : marath =    108.1 : 1.0
+                 feature = u'\u0901'       hindi : marath =     32.3 : 1.0
+                 feature = u'\u0949'      marath : hindi  =      9.3 : 1.0
+                 feature = u'\u0919'       hindi : marath =      8.7 : 1.0
+                 feature = u'*'           marath : hindi  =      8.3 : 1.0
+                 feature = u'\u091b'       hindi : marath =      6.1 : 1.0
+                 feature = u'\u0945'      marath : hindi  =      5.9 : 1.0
+                 feature = u'!'           marath : hindi  =      4.3 : 1.0
+                 feature = u'['            hindi : marath =      4.3 : 1.0
+  sanskrit/pali       epsilon: 0.375	 siz: 2018348 
+Most Informative Features
+                 feature = u'\u091d'        pali : sanskr =     64.6 : 1.0
+                 feature = u'\u0908'      sanskr : pali   =     46.9 : 1.0
+                 feature = u'\u0913'        pali : sanskr =     19.1 : 1.0
+                 feature = u'\u0916'        pali : sanskr =      7.2 : 1.0
+                 feature = u'\u091e'        pali : sanskr =      5.1 : 1.0
+                 feature = u'\u0930'      sanskr : pali   =      3.4 : 1.0
+                 feature = u'\u0919'        pali : sanskr =      3.0 : 1.0
+                 feature = u'\u0920'        pali : sanskr =      2.8 : 1.0
+                 feature = u'\n'          sanskr : pali   =      2.7 : 1.0
+                 feature = u'\u091f'        pali : sanskr =      2.5 : 1.0
+
+=================================================================
+
+features: 2-char grams
+     hindi/sanskrit   epsilon: 0.276	 siz: 11747132
+Most Informative Features
+                 feature = u'\u0947\u0902'  hindi : sanskr =  13142.0 : 1.0
+                 feature = u'\u0907\u0938'  hindi : sanskr =   7228.9 : 1.0
+                 feature = u'\u0948\u0902'  hindi : sanskr =   6300.9 : 1.0
+                 feature = u'\u0909\u0938'  hindi : sanskr =   5950.1 : 1.0
+                 feature = u'\u090f\u0902'  hindi : sanskr =   1170.6 : 1.0
+                 feature = u'\u0947\u091f'  hindi : sanskr =    970.5 : 1.0
+                 feature = u'\u091d\u093e'  hindi : sanskr =    739.5 : 1.0
+                 feature = u'\u0902\u0921'  hindi : sanskr =    685.6 : 1.0
+                 feature = u'\u0942\u0901'  hindi : sanskr =    604.7 : 1.0
+                 feature = u'\u0914\u0930'  hindi : sanskr =    581.9 : 1.0
+   marathi/sanskrit   epsilon: 0.267	 siz: 472838  
+Most Informative Features
+                 feature = u'\u093e\u0903' sanskr : marath =    478.5 : 1.0
+                 feature = u'\u0903\n'    sanskr : marath =    348.5 : 1.0
+                 feature = u'\u0906\u0923' marath : sanskr =    259.1 : 1.0
+                 feature = u'\u0920\u0940' marath : sanskr =    189.0 : 1.0
+                 feature = u'\u092f\u0903' sanskr : marath =    161.3 : 1.0
+                 feature = u'\u0902\u091a' marath : sanskr =    154.9 : 1.0
+                 feature = u'\u0947\u0932' marath : sanskr =    128.1 : 1.0
+                 feature = u'\u092a\u091f' marath : sanskr =    105.5 : 1.0
+                 feature = u'\u090f\u0924' sanskr : marath =     97.3 : 1.0
+                 feature = u'\u090a\u0928' marath : sanskr =     90.0 : 1.0
+     hindi/pali       epsilon: 0.234	 siz: 1699700 
+Most Informative Features
+                 feature = u'\u0940\u0902'  hindi : pali   =   1785.9 : 1.0
+                 feature = u'\u091e\u094d'   pali : hindi  =    706.0 : 1.0
+                 feature = u'\u0941\u091e'   pali : hindi  =    492.6 : 1.0
+                 feature = u'\u091e\u0924'   pali : hindi  =    416.2 : 1.0
+                 feature = u'\u0927\u094d'  hindi : pali   =    406.1 : 1.0
+                 feature = u'\u091e\u0940'   pali : hindi  =    392.7 : 1.0
+                 feature = u'\u0925\u0902'   pali : hindi  =    359.0 : 1.0
+                 feature = u'\u0917\u092f'  hindi : pali   =    235.2 : 1.0
+                 feature = u'\u0935\u094d'  hindi : pali   =    221.7 : 1.0
+                 feature = u'\u092a\u091e'   pali : hindi  =    204.0 : 1.0
+     hindi/sanskrit   epsilon: 0.274	 siz: 11747132
+Most Informative Features
+                 feature = u'\u0947\u0902'  hindi : sanskr =  13197.7 : 1.0
+                 feature = u'\u0907\u0938'  hindi : sanskr =   7121.2 : 1.0
+                 feature = u'\u0948\u0902'  hindi : sanskr =   6460.1 : 1.0
+                 feature = u'\u0909\u0938'  hindi : sanskr =   5967.3 : 1.0
+                 feature = u'\u092a\u0921'  hindi : sanskr =   2389.2 : 1.0
+                 feature = u'\u090f\u0902'  hindi : sanskr =   1081.5 : 1.0
+                 feature = u'\u0915\u0921'  hindi : sanskr =    933.6 : 1.0
+                 feature = u'\u091d\u093e'  hindi : sanskr =    721.1 : 1.0
+                 feature = u'\u093e\u091e' sanskr : hindi  =    680.4 : 1.0
+                 feature = u'\u0902\u0921'  hindi : sanskr =    671.6 : 1.0
+     hindi/marathi    epsilon: 0.284	 siz: 472838  
+Most Informative Features
+                 feature = u'\u0914\u0930'  hindi : marath =    453.9 : 1.0
+                 feature = u'\u0906\u0923' marath : hindi  =    334.7 : 1.0
+                 feature = u'\u0909\u0938'  hindi : marath =    296.4 : 1.0
+                 feature = u'\u093e\u091d' marath : hindi  =    284.8 : 1.0
+                 feature = u'\u0933\u0947' marath : hindi  =    265.3 : 1.0
+                 feature = u'\u092f\u091a' marath : hindi  =    247.5 : 1.0
+                 feature = u'\u0949\u0915' marath : hindi  =    211.0 : 1.0
+                 feature = u'\u091d\u094d' marath : hindi  =    159.5 : 1.0
+                 feature = u'\u0909\u0928'  hindi : marath =    107.2 : 1.0
+                 feature = u'\u0933\u0924' marath : hindi  =     97.7 : 1.0
+  sanskrit/pali       epsilon: 0.251	 siz: 1699700 
+Most Informative Features
+                 feature = u'\u0927\u094d' sanskr : pali   =    629.8 : 1.0
+                 feature = u'\u0947\n'    sanskr : pali   =    496.2 : 1.0
+                 feature = u'\u0916\u0941'   pali : sanskr =    465.5 : 1.0
+                 feature = u'\u091e\u0940'   pali : sanskr =    384.7 : 1.0
+                 feature = u'\u0940\u0902' sanskr : pali   =    291.2 : 1.0
+                 feature = u'\u094d\u091d'   pali : sanskr =    286.7 : 1.0
+                 feature = u'\u092d\u0923'   pali : sanskr =    280.7 : 1.0
+                 feature = u'\u091c\u092f' sanskr : pali   =    261.4 : 1.0
+                 feature = u'\u093e\u091e' sanskr : pali   =    217.0 : 1.0
+                 feature = u'\u0938\u091e'   pali : sanskr =    204.5 : 1.0
+
+=================================================================
+
+features: 3-char grams
+     hindi/sanskrit   epsilon: 0.192	 siz: 9908806 
+Most Informative Features
+                 feature = u'\u0928\u0939\u0940'  hindi : sanskr =   3086.4 : 1.0
+                 feature = u'\u092c\u0928\u093e'  hindi : sanskr =   1528.6 : 1.0
+                 feature = u'\u0915\u092d\u0940'  hindi : sanskr =   1319.3 : 1.0
+                 feature = u'\u0902\u0915\u093f'  hindi : sanskr =   1295.3 : 1.0
+                 feature = u'\u0915\u0930\u0928'  hindi : sanskr =   1183.3 : 1.0
+                 feature = u'\u0924\u0935\u092f' sanskr : hindi  =   1124.5 : 1.0
+                 feature = u'\u092a\u0939\u0941'  hindi : sanskr =   1094.9 : 1.0
+                 feature = u'\u091a\u0948\u0935' sanskr : hindi  =   1080.4 : 1.0
+                 feature = u'\u092c\u093e\u0924'  hindi : sanskr =   1030.7 : 1.0
+                 feature = u'\u0938\u093e\u0925'  hindi : sanskr =    923.6 : 1.0
+   marathi/sanskrit   epsilon: 0.161	 siz: 380684  
+Most Informative Features
+                 feature = u'\u093e\u0939\u0940' marath : sanskr =    504.0 : 1.0
+                 feature = u'\u0932\u0947\u0932' marath : sanskr =    207.5 : 1.0
+                 feature = u'\u093e\u0902\u0917' marath : sanskr =    181.0 : 1.0
+                 feature = u'\u0928\u094d\u0926' sanskr : marath =    174.4 : 1.0
+                 feature = u'\u091f\u0930\u093e' marath : sanskr =    169.4 : 1.0
+                 feature = u'\n\u0924\u0924' sanskr : marath =    151.6 : 1.0
+                 feature = u'\u0915\u093e\u0939' marath : sanskr =    144.2 : 1.0
+                 feature = u'\u0924\u0938\u094d' sanskr : marath =    120.3 : 1.0
+                 feature = u'\u092f\u0925\u093e' sanskr : marath =    120.3 : 1.0
+                 feature = u'\u092f\u0928\u094d' sanskr : marath =    117.0 : 1.0
+     hindi/pali       epsilon: 0.125	 siz: 1427394 
+Most Informative Features
+                 feature = u'\u0939\u0940\u0902'  hindi : pali   =   1742.8 : 1.0
+                 feature = u'\u0947\u092f\u094d'   pali : hindi  =   1042.5 : 1.0
+                 feature = u'\u092f\u0947\u0928'   pali : hindi  =   1006.6 : 1.0
+                 feature = u'\u0915\u0930\u0928'  hindi : pali   =    894.0 : 1.0
+                 feature = u'\u0916\u0941\u0928'   pali : hindi  =    883.0 : 1.0
+                 feature = u'\u0927\u092e\u094d'   pali : hindi  =    760.7 : 1.0
+                 feature = u'\u094d\u0930\u0940'  hindi : pali   =    722.0 : 1.0
+                 feature = u'\u0915\u091f\u0938'   pali : hindi  =    666.5 : 1.0
+                 feature = u'\u092a\u091f\u093f'   pali : hindi  =    656.7 : 1.0
+                 feature = u'\u0924\u0947\u0928'   pali : hindi  =    617.1 : 1.0
+     hindi/sanskrit   epsilon: 0.193	 siz: 9908806 
+Most Informative Features
+                 feature = u'\u0928\u0939\u0940'  hindi : sanskr =   4838.5 : 1.0
+                 feature = u'\u092c\u0928\u093e'  hindi : sanskr =   1498.8 : 1.0
+                 feature = u'\u0924\u0947\u0937' sanskr : hindi  =   1439.1 : 1.0
+                 feature = u'\u092c\u093e\u0924'  hindi : sanskr =   1285.1 : 1.0
+                 feature = u'\u0915\u0930\u0928'  hindi : sanskr =   1185.4 : 1.0
+                 feature = u'\u0938\u093e\u0925'  hindi : sanskr =   1147.3 : 1.0
+                 feature = u'\u0930\u0947\u0902'  hindi : sanskr =   1124.0 : 1.0
+                 feature = u'\u0924\u0935\u092f' sanskr : hindi  =   1112.6 : 1.0
+                 feature = u'\u093f\u0938\u0915'  hindi : sanskr =   1021.5 : 1.0
+                 feature = u'\u0916\u0928\u0947'  hindi : sanskr =    929.0 : 1.0
+     hindi/marathi    epsilon: 0.184	 siz: 380684  
+Most Informative Features
+                 feature = u'\u091a\u094d\u092f' marath : hindi  =    937.3 : 1.0
+                 feature = u'\u093e\u0902\u0928' marath : hindi  =    514.3 : 1.0
+                 feature = u'\u0932\u093f\u090f'  hindi : marath =    350.6 : 1.0
+                 feature = u'\u0905\u0938\u0947' marath : hindi  =    297.1 : 1.0
+                 feature = u'\u092e\u0947\u0902'  hindi : marath =    257.8 : 1.0
+                 feature = u'\u0932\u0947\u0932' marath : hindi  =    244.7 : 1.0
+                 feature = u'\u091d\u093e\u0932' marath : hindi  =    225.8 : 1.0
+                 feature = u'\u0924\u0940\u0932' marath : hindi  =    223.4 : 1.0
+                 feature = u'\u0930\u0928\u0947'  hindi : marath =    223.1 : 1.0
+                 feature = u'\u0939\u0940\u0902'  hindi : marath =    212.6 : 1.0
+  sanskrit/pali       epsilon: 0.135	 siz: 1427394 
+Most Informative Features
+                 feature = u'\u0938\u094d\u0938'   pali : sanskr =   1642.8 : 1.0
+                 feature = u'\u092e\u094d\u092e'   pali : sanskr =   1539.4 : 1.0
+                 feature = u'\u0924\u094d\u092f' sanskr : pali   =    921.6 : 1.0
+                 feature = u'\u0916\u0941\u0928'   pali : sanskr =    873.6 : 1.0
+                 feature = u'\u0926\u093f\u0938'   pali : sanskr =    745.8 : 1.0
+                 feature = u'\u0927\u092e\u094d'   pali : sanskr =    692.2 : 1.0
+                 feature = u'\u0915\u091f\u0938'   pali : sanskr =    633.3 : 1.0
+                 feature = u'\u0916\u0935\u0947'   pali : sanskr =    622.0 : 1.0
+                 feature = u'\u094d\u0916\u0935'   pali : sanskr =    615.9 : 1.0
+                 feature = u'\u093f\u091f\u094d'   pali : sanskr =    593.9 : 1.0
+
+=================================================================
+
+features: 4-char grams
+     hindi/sanskrit   epsilon: 0.121	 siz: 8224176 
+Most Informative Features
+                 feature = u'\u0915\u093f\u092f\u093e'  hindi : sanskr =   7214.6 : 1.0
+                 feature = u'\u0938\u0915\u0924\u093e'  hindi : sanskr =   2590.1 : 1.0
+                 feature = u'\u0905\u092a\u0928\u0947'  hindi : sanskr =   1611.7 : 1.0
+                 feature = u'\u092a\u0936\u094d\u092f' sanskr : hindi  =   1495.6 : 1.0
+                 feature = u'\u094d\u091f\u094d\u0935' sanskr : hindi  =   1450.7 : 1.0
+                 feature = u'\u091f\u094d\u0935\u093e' sanskr : hindi  =   1361.5 : 1.0
+                 feature = u'\u0928\u094d\u0939\u0947'  hindi : sanskr =   1318.2 : 1.0
+                 feature = u'\u0915\u0930\u0924\u093e'  hindi : sanskr =   1158.7 : 1.0
+                 feature = u'\u092c\u094d\u0930\u0935' sanskr : hindi  =   1137.0 : 1.0
+                 feature = u'\u092a\u0930\u0924\u093f' sanskr : hindi  =   1122.5 : 1.0
+   marathi/sanskrit   epsilon: 0.116	 siz: 296750  
+Most Informative Features
+                 feature = u'\u094d\u092f\u093e\u091a' marath : sanskr =    224.9 : 1.0
+                 feature = u'\u091a\u094d\u092f\u093e' marath : sanskr =    178.2 : 1.0
+                 feature = u'\u094d\u0926\u094d\u0930' sanskr : marath =    110.2 : 1.0
+                 feature = u'\u092f\u093e\u092e\u0941' marath : sanskr =    109.1 : 1.0
+                 feature = u'\u094d\u092f\u093e\u0932' marath : sanskr =     91.4 : 1.0
+                 feature = u'\u092f\u0928\u094d\u0924' sanskr : marath =     89.3 : 1.0
+                 feature = u'\u0937\u094d\u091f\u0940' marath : sanskr =     85.3 : 1.0
+                 feature = u'\u094d\u0930\u092a\u091f' marath : sanskr =     80.5 : 1.0
+                 feature = u'\u092f\u093e\u0938\u093e' marath : sanskr =     71.6 : 1.0
+                 feature = u'\u094d\u0937\u094d\u092f' sanskr : marath =     70.3 : 1.0
+     hindi/pali       epsilon: 0.053	 siz: 1182332 
+Most Informative Features
+                 feature = u'\u093f\u0915\u094d\u0916'   pali : hindi  =   2921.4 : 1.0
+                 feature = u'\u0947\u092f\u094d\u092f'   pali : hindi  =    634.8 : 1.0
+                 feature = u'\u092f\u0938\u094d\u0938'   pali : hindi  =    621.8 : 1.0
+                 feature = u'\u0924\u094d\u0924\u0902'   pali : hindi  =    591.7 : 1.0
+                 feature = u'\u092a\u0935\u093e\u0930'   pali : hindi  =    496.7 : 1.0
+                 feature = u'\u0947\u0928\u094d\u0924'   pali : hindi  =    494.6 : 1.0
+                 feature = u'\u0915\u092e\u094d\u092e'   pali : hindi  =    479.9 : 1.0
+                 feature = u'\u093f\u0915\u0938\u094d'   pali : hindi  =    455.4 : 1.0
+                 feature = u'\u0905\u092a\u094d\u092a'   pali : hindi  =    449.8 : 1.0
+                 feature = u'\u0941\u091a\u094d\u091a'   pali : hindi  =    440.0 : 1.0
+     hindi/sanskrit   epsilon: 0.121	 siz: 8224176 
+Most Informative Features
+                 feature = u'\u0915\u093f\u092f\u093e'  hindi : sanskr =   4307.1 : 1.0
+                 feature = u'\u0938\u0915\u0924\u093e'  hindi : sanskr =   2564.6 : 1.0
+                 feature = u'\u092a\u0930\u0924\u093f' sanskr : hindi  =   1845.2 : 1.0
+                 feature = u'\u091a\u093e\u0939\u093f'  hindi : sanskr =   1465.5 : 1.0
+                 feature = u'\u091f\u094d\u0935\u093e' sanskr : hindi  =   1381.5 : 1.0
+                 feature = u'\u0928\u094d\u0939\u0947'  hindi : sanskr =   1318.5 : 1.0
+                 feature = u'\u0915\u0930\u0915\u0947'  hindi : sanskr =   1167.6 : 1.0
+                 feature = u'\u092c\u094d\u0930\u0935' sanskr : hindi  =   1154.6 : 1.0
+                 feature = u'\u0915\u0930\u0924\u093e'  hindi : sanskr =   1151.5 : 1.0
+                 feature = u'\u0905\u092a\u0928\u0947'  hindi : sanskr =   1113.5 : 1.0
+     hindi/marathi    epsilon: 0.131	 siz: 296750  
+Most Informative Features
+                 feature = u'\u0923\u094d\u092f\u093e' marath : hindi  =    332.8 : 1.0
+                 feature = u'\u0915\u093f\u0902\u0935' marath : hindi  =    119.1 : 1.0
+                 feature = u'\u092f\u093e\u0932\u093e' marath : hindi  =    115.1 : 1.0
+                 feature = u'\u093e\u0938\u093e\u0920' marath : hindi  =    114.3 : 1.0
+                 feature = u'\u093f\u0915\u093e\u0938'  hindi : marath =     94.7 : 1.0
+                 feature = u'\u0924\u094d\u0930\u092a' marath : hindi  =     90.8 : 1.0
+                 feature = u'\u094d\u092f\u093e\u091a' marath : hindi  =     88.3 : 1.0
+                 feature = u'\u0949\u0915\u094d\u091f' marath : hindi  =     86.7 : 1.0
+                 feature = u'\u092a\u0930\u093f\u0935'  hindi : marath =     85.7 : 1.0
+                 feature = u'\u094b\u0937\u094d\u091f' marath : hindi  =     82.9 : 1.0
+  sanskrit/pali       epsilon: 0.060	 siz: 1182332 
+Most Informative Features
+                 feature = u'\u0938\u0919\u094d\u0918'   pali : sanskr =    980.8 : 1.0
+                 feature = u'\u0906\u092a\u0924\u094d'   pali : sanskr =    959.5 : 1.0
+                 feature = u'\u094d\u0915\u091f\u0938'   pali : sanskr =    647.7 : 1.0
+                 feature = u'\u0915\u091f\u0938\u094d'   pali : sanskr =    643.6 : 1.0
+                 feature = u'\u0941\u0915\u094d\u0915'   pali : sanskr =    587.6 : 1.0
+                 feature = u'\u094d\u0924\u093f\u092f'   pali : sanskr =    468.1 : 1.0
+                 feature = u'\u093e\u0926\u093f\u0938'   pali : sanskr =    449.8 : 1.0
+                 feature = u'\u0907\u0924\u094d\u0925'   pali : sanskr =    418.9 : 1.0
+                 feature = u'\u0905\u0928\u093e\u092a'   pali : sanskr =    408.8 : 1.0
+                 feature = u'\u094d\u0938\u093e\u092e'   pali : sanskr =    334.1 : 1.0
+
+=================================================================
+
+features: 5-char grams
+     hindi/sanskrit   epsilon: 0.080	 siz: 6701262 
+Most Informative Features
+                 feature = u'\u0935\u093f\u0915\u093e\u0938'  hindi : sanskr =   2335.2 : 1.0
+                 feature = u'\u092a\u0941\u0938\u094d\u0924'  hindi : sanskr =   1172.5 : 1.0
+                 feature = u'\u0937\u094d\u091f\u094d\u0935' sanskr : hindi  =   1107.3 : 1.0
+                 feature = u'\u094d\u091f\u094d\u0935\u093e' sanskr : hindi  =   1051.7 : 1.0
+                 feature = u'\u0906\u0935\u0936\u094d\u092f'  hindi : sanskr =    916.6 : 1.0
+                 feature = u'\u0938\u093e\u092e\u093e\u091c'  hindi : sanskr =    887.2 : 1.0
+                 feature = u'\u092c\u094d\u0930\u0935\u0940' sanskr : hindi  =    880.2 : 1.0
+                 feature = u'\u0937\u094d\u092f\u093e\u092e' sanskr : hindi  =    774.2 : 1.0
+                 feature = u'\u091a\u093e\u0939\u0924\u093e'  hindi : sanskr =    762.8 : 1.0
+                 feature = u'\u0935\u0936\u094d\u092f\u0915'  hindi : sanskr =    735.4 : 1.0
+   marathi/sanskrit   epsilon: 0.118	 siz: 222984  
+Most Informative Features
+                 feature = u'\u0924\u094d\u092f\u093e\u091a' marath : sanskr =    133.0 : 1.0
+                 feature = u'\u092a\u0924\u094d\u0930\u093f' marath : sanskr =     88.3 : 1.0
+                 feature = u'\u093e\u091a\u094d\u092f\u093e' marath : sanskr =     88.1 : 1.0
+                 feature = u'\u0924\u094d\u092f\u093e\u0902' marath : sanskr =     81.7 : 1.0
+                 feature = u'\u093e\u0923\u094d\u0921\u0935' sanskr : marath =     71.2 : 1.0
+                 feature = u'\u094d\u092f\u093e\u0938\u093e' marath : sanskr =     65.6 : 1.0
+                 feature = u'\u094d\u092f\u093e\u0935\u0930' marath : sanskr =     60.3 : 1.0
+                 feature = u'\u0924\u094d\u0930\u093f\u0915' marath : sanskr =     59.5 : 1.0
+                 feature = u'\u094d\u0930\u0936\u094d\u0928' marath : sanskr =     55.2 : 1.0
+                 feature = u'\u0935\u093f\u091a\u093e\u0930' marath : sanskr =     54.1 : 1.0
+     hindi/pali       epsilon: 0.025	 siz: 951338  
+Most Informative Features
+                 feature = u'\u0938\u093f\u0915\u094d\u0916'   pali : hindi  =    587.8 : 1.0
+                 feature = u'\u0917\u094d\u0917\u093f\u092f'   pali : hindi  =    461.8 : 1.0
+                 feature = u'\u0926\u0941\u0915\u094d\u0915'   pali : hindi  =    452.1 : 1.0
+                 feature = u'\u0905\u0928\u093e\u092a\u0924'   pali : hindi  =    414.6 : 1.0
+                 feature = u'\u0938\u0928\u094d\u0924\u093f'   pali : hindi  =    358.5 : 1.0
+                 feature = u'\u0947\u092f\u094d\u092f\u093e'   pali : hindi  =    342.6 : 1.0
+                 feature = u'\u0938\u094d\u0938\u093e\u092e'   pali : hindi  =    333.6 : 1.0
+                 feature = u'\u092a\u0938\u092e\u094d\u092a'   pali : hindi  =    327.4 : 1.0
+                 feature = u'\u094d\u092c\u0928\u094d\u0927'  hindi : pali   =    305.7 : 1.0
+                 feature = u'\u0928\u094d\u0924\u0938\u094d'   pali : hindi  =    297.6 : 1.0
+     hindi/sanskrit   epsilon: 0.080	 siz: 6701262 
+Most Informative Features
+                 feature = u'\u0935\u093f\u0915\u093e\u0938'  hindi : sanskr =   1404.4 : 1.0
+                 feature = u'\u092a\u0941\u0938\u094d\u0924'  hindi : sanskr =   1162.2 : 1.0
+                 feature = u'\u0937\u094d\u091f\u094d\u0935' sanskr : hindi  =   1098.3 : 1.0
+                 feature = u'\u094d\u091f\u094d\u0935\u093e' sanskr : hindi  =   1056.0 : 1.0
+                 feature = u'\u0935\u0936\u094d\u092f\u0915'  hindi : sanskr =    943.5 : 1.0
+                 feature = u'\u0906\u0935\u0936\u094d\u092f'  hindi : sanskr =    931.4 : 1.0
+                 feature = u'\u092c\u094d\u0930\u0935\u0940' sanskr : hindi  =    899.5 : 1.0
+                 feature = u'\u0938\u093e\u092e\u093e\u091c'  hindi : sanskr =    882.7 : 1.0
+                 feature = u'\u091a\u093e\u0939\u0924\u093e'  hindi : sanskr =    776.2 : 1.0
+                 feature = u'\u0937\u094d\u092f\u093e\u092e' sanskr : hindi  =    774.4 : 1.0
+     hindi/marathi    epsilon: 0.140	 siz: 222984  
+Most Informative Features
+                 feature = u'\u094d\u092f\u093e\u0938\u093e' marath : hindi  =    107.1 : 1.0
+                 feature = u'\u094d\u0935\u093e\u0930\u093e'  hindi : marath =     90.9 : 1.0
+                 feature = u'\u0924\u094d\u0930\u092a\u091f' marath : hindi  =     69.7 : 1.0
+                 feature = u'\u0938\u0902\u0916\u094d\u092f'  hindi : marath =     64.9 : 1.0
+                 feature = u'\u0935\u093f\u0915\u093e\u0938'  hindi : marath =     63.6 : 1.0
+                 feature = u'\u094d\u092f\u093e\u0932\u092f'  hindi : marath =     63.6 : 1.0
+                 feature = u'\u0930\u0941\u092a\u092f\u0947'  hindi : marath =     60.9 : 1.0
+                 feature = u'\u092e\u0942\u0932\u094d\u092f'  hindi : marath =     59.6 : 1.0
+                 feature = u'\u0906\u0927\u0941\u0928\u093f'  hindi : marath =     57.6 : 1.0
+                 feature = u'\u0924\u094d\u092f\u093e\u091a' marath : hindi  =     55.3 : 1.0
+  sanskrit/pali       epsilon: 0.030	 siz: 951338  
+Most Informative Features
+                 feature = u'\u0938\u092e\u092f\u0947\u0928'   pali : sanskr =    539.4 : 1.0
+                 feature = u'\u093e\u092a\u0924\u094d\u0924'   pali : sanskr =    473.0 : 1.0
+                 feature = u'\u092a\u0924\u094d\u0924\u093f'   pali : sanskr =    362.3 : 1.0
+                 feature = u'\u093f\u0924\u094d\u0924\u093f'   pali : sanskr =    320.4 : 1.0
+                 feature = u'\u0928\u094d\u0928\u093e\u092e'   pali : sanskr =    233.0 : 1.0
+                 feature = u'\u0941\u0915\u094d\u0915\u0941'   pali : sanskr =    231.0 : 1.0
+                 feature = u'\u0915\u0941\u0915\u094d\u0915'   pali : sanskr =    205.5 : 1.0
+                 feature = u'\u0947\u092f\u094d\u092f\u093e'   pali : sanskr =    196.1 : 1.0
+                 feature = u'\u0938\u094d\u092e\u0928\u094d'   pali : sanskr =    145.8 : 1.0
+                 feature = u'\u0928\u093e\u092a\u0924\u094d'   pali : sanskr =    132.0 : 1.0
+
+=================================================================
+
+features: 6-char grams
+     hindi/sanskrit   epsilon: 0.059	 siz: 5393278 
+Most Informative Features
+                 feature = u'\u092e\u094d\u092c\u0928\u094d\u0927'  hindi : sanskr =   2428.1 : 1.0
+                 feature = u'\u0935\u092a\u0942\u0930\u094d\u0923'  hindi : sanskr =   1179.3 : 1.0
+                 feature = u'\u0915\u0947\u0928\u094d\u0926\u094d'  hindi : sanskr =   1153.5 : 1.0
+                 feature = u'\u0906\u0935\u0936\u094d\u092f\u0915'  hindi : sanskr =   1110.5 : 1.0
+                 feature = u'\u0935\u093e\u0938\u094d\u0924\u0935'  hindi : sanskr =   1004.7 : 1.0
+                 feature = u'\u094d\u092f\u093e\u092a\u093e\u0930'  hindi : sanskr =    916.2 : 1.0
+                 feature = u'\u094d\u0930\u0936\u093f\u0915\u094d'  hindi : sanskr =    816.3 : 1.0
+                 feature = u'\u094d\u0930\u0938\u094d\u0924\u0941'  hindi : sanskr =    815.1 : 1.0
+                 feature = u'\u093f\u0930\u094d\u0927\u093e\u0930'  hindi : sanskr =    779.5 : 1.0
+                 feature = u'\u092a\u094d\u0930\u0915\u094d\u0930'  hindi : sanskr =    776.0 : 1.0
+   marathi/sanskrit   epsilon: 0.157	 siz: 167592  
+Most Informative Features
+                 feature = u'\u091a\u093f\u0924\u094d\u0930\u092a' marath : sanskr =     81.9 : 1.0
+                 feature = u'\u0938\u094d\u0925\u093e\u0928\u093e' marath : sanskr =     50.6 : 1.0
+                 feature = u'\u092a\u093e\u0923\u094d\u0921\u0935' sanskr : marath =     46.1 : 1.0
+                 feature = u'\u0924\u094d\u0930\u093f\u0915\u093e' marath : sanskr =     41.8 : 1.0
+                 feature = u'\u094d\u0937\u0924\u094d\u0930\u093e' marath : sanskr =     38.4 : 1.0
+                 feature = u'\u0935\u094d\u092f\u0915\u094d\u0924' marath : sanskr =     33.1 : 1.0
+                 feature = u'\u093f\u0937\u094d\u092f\u0924\u093f' sanskr : marath =     27.8 : 1.0
+                 feature = u'\u0926\u0943\u0937\u094d\u091f\u0940' marath : sanskr =     26.8 : 1.0
+                 feature = u'\u093e\u0923\u094d\u0921\u0935\u093e' sanskr : marath =     25.8 : 1.0
+                 feature = u'\u0935\u093f\u0937\u094d\u092f\u0924' sanskr : marath =     24.5 : 1.0
+     hindi/pali       epsilon: 0.023	 siz: 740246  
+Most Informative Features
+                 feature = u'\u091a\u093f\u0924\u094d\u0924\u093f'   pali : hindi  =    549.9 : 1.0
+                 feature = u'\u0905\u0928\u093e\u092a\u0924\u094d'   pali : hindi  =    414.0 : 1.0
+                 feature = u'\u093f\u0924\u094d\u0924\u093f\u092f'   pali : hindi  =    327.9 : 1.0
+                 feature = u'\u093f\u092d\u093f\u0928\u094d\u0928'  hindi : pali   =    253.7 : 1.0
+                 feature = u'\u0928\u093e\u092a\u0924\u094d\u0924'   pali : hindi  =    240.6 : 1.0
+                 feature = u'\u093e\u092f\u0928\u094d\u0924\u093f'   pali : hindi  =    162.4 : 1.0
+                 feature = u'\u0905\u0928\u094d\u0924\u0930\u093f'  hindi : pali   =    120.2 : 1.0
+                 feature = u'\u091c\u093e\u0928\u093e\u0924\u093f'   pali : hindi  =    119.6 : 1.0
+                 feature = u'\u093e\u092a\u0924\u094d\u0924\u093f'   pali : hindi  =     97.3 : 1.0
+                 feature = u'\u0906\u092a\u0924\u094d\u0924\u093f'   pali : hindi  =     96.5 : 1.0
+     hindi/sanskrit   epsilon: 0.059	 siz: 5393278 
+Most Informative Features
+                 feature = u'\u092e\u094d\u092c\u0928\u094d\u0927'  hindi : sanskr =   2436.8 : 1.0
+                 feature = u'\u0915\u0947\u0928\u094d\u0926\u094d'  hindi : sanskr =   1149.7 : 1.0
+                 feature = u'\u0906\u0935\u0936\u094d\u092f\u0915'  hindi : sanskr =   1118.7 : 1.0
+                 feature = u'\u0938\u094d\u0915\u0943\u0924\u093f'  hindi : sanskr =    978.5 : 1.0
+                 feature = u'\u0905\u0927\u093f\u0915\u093e\u0930'  hindi : sanskr =    846.4 : 1.0
+                 feature = u'\u094d\u0930\u0938\u094d\u0924\u0941'  hindi : sanskr =    828.0 : 1.0
+                 feature = u'\u0930\u094d\u092f\u0915\u094d\u0930'  hindi : sanskr =    825.7 : 1.0
+                 feature = u'\u092a\u094d\u0930\u0915\u094d\u0930'  hindi : sanskr =    803.8 : 1.0
+                 feature = u'\u094d\u0930\u0936\u093f\u0915\u094d'  hindi : sanskr =    794.6 : 1.0
+                 feature = u'\u0930\u0936\u093f\u0915\u094d\u0937'  hindi : sanskr =    790.1 : 1.0
+     hindi/marathi    epsilon: 0.162	 siz: 167592  
+Most Informative Features
+                 feature = u'\u0926\u094d\u0935\u093e\u0930\u093e'  hindi : marath =    164.4 : 1.0
+                 feature = u'\u0938\u093f\u0926\u094d\u0927\u093e'  hindi : marath =     60.1 : 1.0
+                 feature = u'\u0921\u0949\u0915\u094d\u091f\u0930' marath : hindi  =     58.9 : 1.0
+                 feature = u'\u0938\u092e\u0938\u094d\u092f\u093e'  hindi : marath =     57.7 : 1.0
+                 feature = u'\u0906\u0927\u0941\u0928\u093f\u0915'  hindi : marath =     57.2 : 1.0
+                 feature = u'\u092a\u0930\u093f\u0935\u093e\u0930'  hindi : marath =     47.8 : 1.0
+                 feature = u'\u092e\u093e\u0924\u094d\u0930\u093e'  hindi : marath =     47.2 : 1.0
+                 feature = u'\u092e\u0902\u0924\u094d\u0930\u0940'  hindi : marath =     46.6 : 1.0
+                 feature = u'\u0915\u094d\u0937\u0924\u094d\u0930' marath : hindi  =     45.7 : 1.0
+                 feature = u'\u0928\u0915\u094d\u0937\u0924\u094d' marath : hindi  =     41.2 : 1.0
+  sanskrit/pali       epsilon: 0.026	 siz: 740246  
+Most Informative Features
+                 feature = u'\u091a\u093f\u0924\u094d\u0924\u093f'   pali : sanskr =    524.3 : 1.0
+                 feature = u'\u0928\u093e\u092a\u0924\u094d\u0924'   pali : sanskr =    401.7 : 1.0
+                 feature = u'\u092e\u094d\u092a\u0928\u094d\u0928'   pali : sanskr =    317.3 : 1.0
+                 feature = u'\u093e\u092a\u0924\u094d\u0924\u093f'   pali : sanskr =    288.1 : 1.0
+                 feature = u'\u0915\u0941\u0915\u094d\u0915\u0941'   pali : sanskr =    225.5 : 1.0
+                 feature = u'\u093e\u0930\u093e\u091c\u093f\u0915'   pali : sanskr =    199.2 : 1.0
+                 feature = u'\u092e\u093f\u0924\u094d\u0935\u093e'   pali : sanskr =    165.2 : 1.0
+                 feature = u'\u0938\u093f\u0924\u094d\u0935\u093e'   pali : sanskr =    129.0 : 1.0
+                 feature = u'\u0938\u0928\u094d\u0928\u093e\u0928'   pali : sanskr =    121.6 : 1.0
+                 feature = u'\u094d\u092f\u092a\u0941\u0924\u094d'   pali : sanskr =    117.6 : 1.0
+
+=================================================================
+
