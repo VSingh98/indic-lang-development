@@ -10,6 +10,8 @@ NLTK. It builds upon the IndicNLP library, which is included within the
 project. 
 
 # Data
-We ran the confusability_matrix.py python file to generate our program.data raw
-data file. This summarizes the results of our findings based on the relative
-corpora available.
+To run the program on our data files on Windows, run `python confusability_matrix.py`.
+To run the program on our data files on Unix, run `make`.
+This will output the data in a file called program.data
+
+Our current data is stored in the final.data file
