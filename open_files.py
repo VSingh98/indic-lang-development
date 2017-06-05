@@ -102,7 +102,7 @@ def getAllfeatures(lang_codes, areFeaturesWords=True, n=2):
             if areFeaturesWords:
                 working = tokenized
             else:
-                for word in working:
+                for word in tokenized:
                     working += ngram(word, n)
 
             #print "adding features to feature list"
