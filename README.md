@@ -10,10 +10,13 @@ NLTK. It builds upon the IndicNLP library, which is included within the
 project. 
 
 # Data
-Note: be prepared to wait a very large amount of time
-
 To run the program on our data files on Windows, run `python confusability_matrix.py`.
 To run the program on our data files on Unix, run `make`.
 This will output the data in a file called program.data
 
-Our current data is stored in the final.data file
+Note: be prepared to wait a very large amount of time
+
+# Results
+Our paper, FinalPaper.pdf, summarizes the results of our historical linguistic
+experiments. We found that Hindi was much more similar to Sanskrit than was
+Marathi. and Marathi was much more similar to Pali than was Hindi.
