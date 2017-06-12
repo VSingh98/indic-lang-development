@@ -10,6 +10,8 @@ NLTK. It builds upon the IndicNLP library, which is included within the
 project. 
 
 # Data
+Note: be prepared to wait a very large amount of time
+
 To run the program on our data files on Windows, run `python confusability_matrix.py`.
 To run the program on our data files on Unix, run `make`.
 This will output the data in a file called program.data
